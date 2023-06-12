@@ -1,0 +1,245 @@
+.cartwrapper {
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartboxone {
+    height: 30rem;
+    width: 80rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: scroll;
+    background-color: #d7d7d5;
+}
+
+.block {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    margin-bottom: 0.75rem;
+}
+
+.image {
+    height: 8rem;
+    width: 12rem;
+}
+
+.selectedimage {
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    height: 8rem;
+    width: 38rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.price {
+    height: 8rem;
+    width: 15rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.delete {
+    height: 8rem;
+    width: 15rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.delete:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.removebutton {
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.bottombox {
+    height: 20rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #222;
+    font-size: 2rem;
+}
+
+.orderbtn {
+    height: 4rem;
+    width: 14rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+.orderbtn:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+    .block {
+        height: 10rem;
+    }
+
+    .image {
+        height: 10rem;
+        width: 14rem;
+    }
+
+    .name {
+        height: 10rem;
+        width: 30rem;
+    }
+
+    .price {
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .delete {
+        height: 10rem;
+        width: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .removebutton {
+        height: 3rem;
+        width: 8rem;
+    }
+
+    .image {
+        height: 10rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .bottombox {
+        height: 18rem;
+        font-size: 1.5rem;
+    }
+
+    .block {
+        height: 8rem;
+    }
+
+    .image {
+        height: 8rem;
+        width: 20rem;
+    }
+
+    .name {
+        height: 8rem;
+        width: 30rem;
+    }
+
+    .price {
+        height: 8rem;
+        width: 15rem;
+    }
+
+    .delete {
+        height: 8rem;
+        width: 20rem;
+    }
+
+    .removebutton {
+        height: 3rem;
+        width: 6rem;
+        font-size: 1rem;
+    }
+
+    .bottombox {
+        height: 16rem;
+        font-size: 1.25rem;
+    }
+
+    .orderbtn {
+        height: 3rem;
+        width: 10rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .removebutton {
+        height: 3rem;
+        width: 8rem;
+    }
+
+    .bottombox {
+        height: 18rem;
+        font-size: 1.5rem;
+    }
+
+    .block {
+        height: 6rem;
+    }
+
+    .image {
+        height: 6rem;
+        width: 20rem;
+    }
+
+    .name {
+        height: 6rem;
+        width: 30rem;
+        font-size: 0.75rem;
+    }
+
+    .price {
+        height: 6rem;
+        width: 15rem;
+    }
+
+    .delete {
+        height: 6rem;
+        width: 20rem;
+    }
+
+    .removebutton {
+        height: 2.5rem;
+        width: 5rem;
+        font-size: 0.75rem;
+    }
+
+    .bottombox {
+        height: 16rem;
+        font-size: 1.25rem;
+    }
+}

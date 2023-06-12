@@ -1,0 +1,27 @@
+.mid-section {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid1 {
+    height: 20rem;
+    width: 50rem;
+    font-size: 2rem;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.btn-login {
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}

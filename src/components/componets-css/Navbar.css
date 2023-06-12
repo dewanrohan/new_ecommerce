@@ -1,0 +1,152 @@
+.navbar-wrapper {
+    height: 8rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.left-navbar-wrapper {
+    height: 100%;
+    width: 20rem;
+    background-color: #2c2c2c;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-navbar {
+    font-size: 2rem;
+}
+
+.right-navbar-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #2c2c2c;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-box {
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: white;
+}
+
+.navbar-box:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.change {
+    display: none;
+}
+
+.btn-login {
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar-wrapper {
+        height: 5rem;
+    }
+
+    .left-navbar-wrapper {
+        font-size: 1.5rem;
+    }
+
+    .icon-navbar {
+        font-size: 1.5rem;
+    }
+
+    .right-navbar-wrapper {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .navbar-wrapper {
+        height: 4.5rem;
+    }
+
+    .left-navbar-wrapper {
+        font-size: 1.5rem;
+    }
+
+    .icon-navbar {
+        font-size: 1.5rem;
+    }
+
+    .right-navbar-wrapper {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .navbar-wrapper {
+        height: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-navbar-wrapper {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .change {
+        display: block;
+    }
+
+    .right-navbar-wrapper {
+        font-size: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        z-index: 99;
+    }
+
+    .navbar-box {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .hide-navbar {
+        display: none;
+    }
+
+    .show-navbar {
+        display: block;
+    }
+}

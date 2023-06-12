@@ -1,0 +1,67 @@
+.addproductwrapper {
+    height: 60rem;
+    background-color: #d7d7d5;
+}
+
+.registerbox {
+    height: 60rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlebox {
+    height: 50rem;
+    width: 40rem;
+    border-radius: 5px;
+    background-color: #d7d7d5;
+    text-align: left;
+}
+
+.outerfield {
+    height: 6rem;
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.field {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 1rem;
+}
+
+.textarea {
+    height: 6rem;
+    width: 30rem;
+    border-radius: 5px;
+    border-color: white;
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+
+.addbtn {
+    height: 4rem;
+    width: 16rem;
+    background-color: #D2042D;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+
+.addbtn:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+    color: #D2042D;
+    background-color: white;
+    font-weight: 800;
+}

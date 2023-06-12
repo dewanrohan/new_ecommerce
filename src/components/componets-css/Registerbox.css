@@ -1,0 +1,101 @@
+.registerboxwrapper {
+    height: 39rem;
+    background-color: white;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 35rem;
+    width: 30rem;
+    background-color: #d7d7d5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.outerfield {
+    height: 6rem;
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.field {
+    margin-left: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 1rem;
+}
+
+.alreadyuser {
+    font-size: 1.5rem;
+}
+
+.btn {
+    height: 4rem;
+    width: 16rem;
+    background-color: #D2042D;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+    color: #D2042D;
+    background-color: white;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 490px) {
+    .registerboxwrapper {
+        height: 50rem;
+    }
+
+    .box {
+        height: 45rem;
+        width: 25rem;
+    }
+
+    .field {
+        width: 10rem;
+    }
+
+    .btn {
+        height: 3rem;
+        width: 12rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .registerboxwrapper {
+        height: 55rem;
+    }
+
+    .box {
+        height: 50rem;
+        width: 20rem;
+    }
+
+    .field {
+        width: 8rem;
+    }
+
+    .btn {
+        height: 3rem;
+        width: 12rem;
+        font-size: 1rem;
+    }
+
+    .alreadyuser {
+        font-size: 1rem;
+    }
+}

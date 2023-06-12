@@ -1,0 +1,51 @@
+.bannerthree-wrapper {
+    height: 26rem;
+    background-color: white;
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.bannerthree-wrapper-left {
+    height: 26rem;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.bannerthree-wrapper-right {
+    height: 25rem;
+    width: 50%;
+}
+
+.bannerthree-text {
+    font-size: 1rem;
+    color: #222;
+    text-align: center;
+}
+
+.bannerthree-button {
+    height: 4rem;
+    width: 12rem;
+    background-color: #222;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .bannerthree-wrapper {
+        display: block;
+    }
+
+    .bannerthree-wrapper-left {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bannerthree-wrapper-right {
+        display: none;
+    }
+}

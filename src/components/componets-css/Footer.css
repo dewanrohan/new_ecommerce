@@ -1,0 +1,131 @@
+.footerwrapper {
+    height: 17rem;
+    margin-top: 2rem;
+    background-color: #222;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerone {
+    height: 17rem;
+    width: 25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footerone h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.footertwo {
+    height: 17rem;
+    width: 25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footertwo h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.footerthree {
+    height: 17rem;
+    width: 25rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footerthree h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 720px) {
+    .footerone {
+        font-size: 1.25rem;
+    }
+
+    .footertwo {
+        font-size: 1.25rem;
+    }
+
+    .footerthree {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footerwrapper {
+        height: 12rem;
+    }
+
+    .footerone {
+        font-size: 1rem;
+        height: 12rem;
+    }
+
+    .footertwo {
+        font-size: 1rem;
+        height: 12rem;
+    }
+
+    .footerthree {
+        font-size: 1rem;
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footerwrapper {
+        height: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerone {
+        font-size: 0.75rem;
+        height: 10rem;
+    }
+
+    .footertwo {
+        font-size: 0.75rem;
+        height: 17rem;
+    }
+
+    .footerthree {
+        font-size: 0.75rem;
+        height: 18rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .footerwrapper {
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerone {
+        font-size: 0.6rem;
+        height: 10rem;
+    }
+
+    .footertwo {
+        font-size: 0.6rem;
+        height: 17rem;
+    }
+
+    .footerthree {
+        font-size: 0.6rem;
+        height: 16rem;
+    }
+}

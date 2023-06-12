@@ -1,0 +1,8 @@
+.productwrapper {
+    /*when we will fetch data dynamically then we will make chnange here height:auto*/
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
